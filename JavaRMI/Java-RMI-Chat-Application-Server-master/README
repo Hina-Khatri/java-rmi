@@ -1,0 +1,64 @@
+********************************************************
+	Distributed Systems Assignment 1
+********************************************************
+
+Student Name 	: 	A V S Piyawardana
+UCD ID No	:	13208367
+NSBM ID NO	:	BSC-UCD-CSS-B03-016
+
+********************************************************
+
+compiled with open JDK 1.7
+implemented using Netbeans 8
+
+********************************************************
+
+files you can find here;
+
+	jar files
+	Netbeans project (commented in front of code)
+	video HowToRun.wmv
+	a folder containing source code, compiled classes
+	screen shot of generating stub
+
+********************************************************
+
+HOW TO RUN
+
+-- using jar files
+   goto jar files folder, open terminal inside it
+
+	to run the server
+		java -jar ChatServer.java
+
+	to run a client
+		java -jar ChatClient.java 
+		or
+		java -jar ChatClient.jar -cp ./lib/AbsoluteLayout.jar
+
+	to run another client
+		open a new terminal and type the same command
+		java -jar ChatClient.jar
+
+-- using netbeans
+
+	please watch the video HowToRun.wmv
+
+********************************************************
+
+ 	I found that it is possible to run both server and the client without generating stub and only with copied interface into Client from Server.
+
+	And according to "Stack Overflow", Since rmic 1.2 onwards, Java doesn't generate skeleton class any more. 
+	New JRMP protocol supported for RMI has got rid of the use of skeleton files.
+	http://stackoverflow.com/questions/18290836/when-is-the-skeleton-object-created-in-rmi
+
+********************************************************
+
+THANK YOU!
+
+
+
+
+
+
+
